@@ -1,0 +1,188 @@
+
+body{
+    background: rgba(0, 0, 0, .2 );
+}
+
+.div1 {
+    background-image: url(../images/boy.jpg);
+    width: 90px;
+    height: 100px;
+    /* background-color: rgb(248, 79, 66); */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: reverse;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+/* --------------------------------------------------- */
+.div2 {
+    
+    background-image: url(../images/boy2.jpg) ;
+    /* background-size: cover; */
+    width: 150px;
+    height: 230px;
+    /* background-color: rgb(228, 228, 228); */
+    animation-name: move;
+    animation-duration: 2s;
+   
+    animation-delay: 2s;
+
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+/* ------------------------------------------------- */
+.div3 {
+    background-image: url(../images/boy.jpg);
+
+    width: 90px;
+    height: 100px;
+    /* background-color: rgb(1, 2, 2); */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-delay: 4s;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+.div4 {
+    width: 150px;
+    height: 200px;
+    
+    /* background-color: rgb(128, 119, 0); */
+    animation-name: move;
+    animation-duration: 2s;
+   
+    background-image: url(../images/boy2.jpg) ;
+    animation-delay: 6s;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+
+.div5 {
+    background-image: url(../images/boy.jpg);
+
+    width: 90px;
+    height: 100px;
+    /* background-color: rgb(0, 30, 128); */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-delay: 8s;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+/* =--------------------------------------------------- */
+
+.div6 {
+    width: 150px;
+    height: 200px;
+    /* background-color: rgb(128, 0, 111); */
+    animation-name: move;
+    
+    background-image: url(../images/boy2.jpg) ;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+/* ------------------------------------------- */
+.div7 {
+    background-image: url(../images/boy.jpg);
+
+    width: 90px;
+    height: 100px;
+    background-color: rgb(0, 128, 128);
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    animation-direction: reverse;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
+
+/* ------------------------------------------- */
+
+
+.div8 {
+    width: 150px;
+    height: 200px;
+    /* background-color: rgb(128, 26, 0); */
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 14s;
+    
+    background-image: url(../images/boy2.jpg) ;
+}
+
+@keyframes move {
+    0% {
+        width: 1200px;
+    }
+
+    100% {
+        width: 00px;
+    }
+}
